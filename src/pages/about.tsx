@@ -1,11 +1,14 @@
-import {NextPage} from "next";
-import Link from "next/link";
-import Layout from "@/components/layout/Layout";
+import Layout from '@/components/layout/Layout'
+import { NextPage } from 'next'
 
-const AboutPage:NextPage = () =>{
-    return <div>
-        <Layout>about</Layout>
-    </div>
+const AboutPage: NextPage = () => {
+	return (
+		<div>
+			<Layout title='О нас'>
+				<h1>About</h1>
+			</Layout>
+		</div>
+	)
 }
 
 export default AboutPage

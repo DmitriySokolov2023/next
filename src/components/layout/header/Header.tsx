@@ -1,6 +1,6 @@
 import {FC, PropsWithChildren} from "react";
 import Link from "next/link";
-import styles from './Header.module.css'
+import styles from './Header.module.scss'
 import {useRouter} from "next/router";
 const Header:FC = () => {
     const {pathname} = useRouter()
